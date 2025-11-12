@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+.navbar{
+    background-color: #000000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 5px;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+#search{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+#search:hover{
+    border: 4px solid orange;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#searchtool{
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+}
+.cart{
+    margin-right: 20px;
+}
+.navbars{
+    background-color: #232f3e;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+}
+.heroimg{
+    width:100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headphone{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 40px;
+}
+#headphone img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+}
+.headphone:hover, .laptop:hover, .tv:hover, .smartwatch:hover{
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.laptop{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 40px;
+}
+#laptop img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+}
+.tv{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 40px;
+}
+#tv img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+}
+.smartwatch{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 1150px;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 40px;
+}
+#watch img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #1a1f26;
+    color: whitesmoke;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.signup{
+    text-align: center;
+    margin-top: 20px;
+}
+#signin{
+    width: 180px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#signin:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+}
+#New{
+    margin-top: 20px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #232f3e;
+    color: whitesmoke;
+    height: 200px;
+    margin-top: 30px;
+    height: 50px;
+}
+.foots{
+    font-size: 12px;
+    background-color: rgb(6, 6, 6);
+}

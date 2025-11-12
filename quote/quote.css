@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    margin-top: 250px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+.box h1{
+    display: flex;
+    text-align: center;
+    justify-content: start;
+    position: relative;
+    top: -60px;
+}
+button{
+    position: relative;
+    top:-90px;
+    left:330px;
+    width:150px;
+    height:25px;
+    background-color: aqua;
+    padding: 50px 10px 10px 10 px;
+    border-radius:7px;
+}

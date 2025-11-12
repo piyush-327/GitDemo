@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(135deg,#153677,#4e085f);
+}
+.todo{
+    width: auto;
+    height:300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.todo h1{
+    text-align: start;
+    margin-bottom: 20px;
+    color: #573aab;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    width:350px;
+    height:35px;
+    border:2px solid #573aab;
+    border-radius: 40px;
+    flex:1;
+    padding:0 15px;
+}
+.search button{
+    width:100px;
+    height:35px;
+    margin-left:10px;
+    border:none;
+    background:#573aab;
+    color:#fff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.task-list{
+    margin-top: 20px;
+    list-style: none;
+}
+.task-list li{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 20px;
+}
+.task-list li input[type="checkbox"]{
+    margin-right: 20px;
+    transform: scale(1.2);
+    border-radius: 50%;
+}
+.task-list li input[type="checkbox"]:checked + span{
+    text-decoration: line-through;
+    color: #999;
+}
+.task-list li span{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    
+}
